@@ -11,7 +11,8 @@ class MessagesController extends Controller
             'name' => 'required',
             'email' => 'required'
         ]);
-
+        
+        return 'SUCCESS';
 
     }
 }
